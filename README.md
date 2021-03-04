@@ -1,4 +1,4 @@
-# GeoFlutterFire :earth_africa:
+# GeoFlutterFire :earth_asia:
 
 [![version][version-badge]][package]
 [![MIT License][license-badge]][license]
