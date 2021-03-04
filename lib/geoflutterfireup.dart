@@ -1,14 +1,3 @@
-
-import 'dart:async';
-
-import 'package:flutter/services.dart';
-
-class Geoflutterfireup {
-  static const MethodChannel _channel =
-      const MethodChannel('geoflutterfireup');
-
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-}
+export 'src/geoflutterfireup.dart';
+export 'src/collection.dart';
+export 'src/point.dart';

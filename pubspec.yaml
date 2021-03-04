@@ -1,8 +1,8 @@
 name: geoflutterfireup
 description: A new Flutter plugin.
 version: 0.0.1
-author:
-homepage:
+author: Raisul Islam
+homepage: https://github.com/rochi88/geoflutterfireup
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cloud_firestore: ^1.0.0
+  rxdart: ^0.26.0
 
 dev_dependencies:
   flutter_test:
